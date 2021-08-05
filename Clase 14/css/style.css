@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    background-color: #D1891C;
+    font-size: 1rem;
+    font-weight: lighter;
+    padding: 0.5rem;
+}
+
+h1 {
+    background-color: #00669F;
+    height: 60px;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+}   
+
+.bloques {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cajas {
+    background-color: #F3F3F3;
+    width: 25%;
+    height: 520px;
+    border-radius: 1rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    padding: 2rem;
+}
+
+.fotocentro {
+    margin-top: -6rem;
+    margin-left: 6rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00669F;
+    height: 50px;
+}
+
+.front {
+    display: flex;
+    font-weight: lighter;
+    color: white;
+    padding-left: 37%;
+    padding-bottom: 1rem;;
+}
+
+.github {
+    display: flex;
+    width: 10%;
+    padding: 1rem;
+}
+
+@media (max-width: 1200px) {
+
+    .bloques {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajas {
+        margin: 2rem;
+        width: 40%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .bloques {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajas {
+        margin: 1rem;
+        width: 80%;
+        height: 500px;
+    }
+
+    footer {
+        height: 40px;
+    }
+
+    .front {
+        font-size: 0.6rem;
+        padding-left: 27%;
+        padding-bottom: 1.5rem;
+    }
+
+    .github {
+        display: none;
+    }
+}

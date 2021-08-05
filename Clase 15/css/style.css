@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.barra-superior {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.listas {
+    list-style: none;
+}
+
+.sup, .inf {
+    display: flex;
+}
+
+.items {
+    margin-right: 10px;
+}
+
+.barra-menu-principal {
+    background-color: #F0A83E;
+    color:#FFFFFF;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/fotoprincipal.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.placer {
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: white;
+    padding: 5px;
+}
+
+.descuento {
+    position: absolute;
+    top: 220px;
+    right: 100px;
+    font-weight: bold;
+}
+
+.comederos {
+    position: absolute;
+    top: 270px;
+    right: 130px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #F0A83E;
+    padding: 10px;
+}
+
+.debajofoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.articulos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+}
+
+.cajas {
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precio {
+    color: #F0A83E;
+}
+
+form {
+    height: 400px;
+    text-align: center;
+}
+
+.nombref {
+    color: #3C2313;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+input {
+    background-color:#3C2313;
+    color: white;
+    width: 25rem;
+    height: 40px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+button {
+    width: 8rem;
+    height: 40px;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.resetear {
+    background-color: #8A8787;
+}
+
+.enviar {
+    background-color: #F0A83E;
+}
+
+.pre-final {
+    position: relative;
+    background-color: #F0A83E;
+    height: 60px;
+    padding: 1rem;
+}
+
+.novedades {
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 0.5rem;
+}
+
+.final {
+    position: relative;
+}
+
+.campo {
+    position: absolute;
+    background-color: white;
+    top: -3rem;
+    right: 9.5rem;
+    width: 15rem;
+    border-radius: 1.5rem;
+}
+
+.campoder {
+    position: absolute;
+    right: 1rem;
+    top: -3rem;
+    background-color: #3C2313;
+    color: white;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: #3C2313;
+    color: white;
+    height: 400px;
+}
+
+.titulos {
+    display: flex;
+    
+}
+
+.remarcado {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.derechos {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*  comentario important
+h1 {
+    color: red important;
+}
+al poner important toma 100 de especifidad y prioriza (gana a id incluso)
+*/
+
+/* selector descendente (toma 2 puntos si son 2 elementos, 3 si son 3 y así). Si hay 2 reglas iguales con diferente color por ejemplo (toma el último porque es cascada)
+    body h1 {
+        color:red;
+    }
+*/
+
+/* seleccionando más de un elemento con ,
+h1,h2 {
+    color: white;
+}
+*/
+
+/* en este caso aplica a los párrafos que tengan la clase class
+p.class {} aca suma valor de clase mas elemento. quedaria en 11. se puede hacer
+tambien con id. acá sumaría 100 más el elemento.
+*/
+
+/* un elemento html puede tener 2 clases <p class="center large">
+*/
+
+/*
+* selector universal (aplica a todo) se usa al principio y tiene 0 de especificidad. si luego aplico una regla a un elemento, pisa esto.
+*/

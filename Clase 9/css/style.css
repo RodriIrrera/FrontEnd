@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1024px;
+}
+
+.barra-superior {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+}
+
+.barra-menu-principal {
+    background-color: #F0A83E;
+    color:#FFFFFF;
+    font-size: 13px;
+}
+
+.listas {
+    list-style: none;
+}
+
+.banner {
+    background-image: url(../img/fotoprincipal.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.placer {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.descuento {
+    text-align: center;
+    font-weight: bold;
+}
+
+.comederos {
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #F0A83E;
+    width: 100px;
+    text-align: center;
+}
+
+.articulos {
+    background-color: #FBFAF6;
+}
+
+.precio {
+    color: #F0A83E;
+}
+
+.contacto {
+    background-color: #3C2313;
+    color: white;
+    font-size: 15px;
+}
+
+.remarcado {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.derechos {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+}
+
+/*  comentario important
+h1 {
+    color: red important;
+}
+al poner important toma 100 de especifidad y prioriza (gana a id incluso)
+*/
+
+/* selector descendente (toma 2 puntos si son 2 elementos, 3 si son 3 y así). Si hay 2 reglas iguales con diferente color por ejemplo (toma el último porque es cascada)
+    body h1 {
+        color:red;
+    }
+*/
+
+/* seleccionando más de un elemento con ,
+h1,h2 {
+    color: white;
+}
+*/
+
+/* en este caso aplica a los párrafos que tengan la clase class
+p.class {} aca suma valor de clase mas elemento. quedaria en 11. se puede hacer
+tambien con id. acá sumaría 100 más el elemento.
+*/
+
+/* un elemento html puede tener 2 clases <p class="center large">
+*/
+
+/*
+* selector universal (aplica a todo) se usa al principio y tiene 0 de especificidad. si luego aplico una regla a un elemento, pisa esto.
+*/
