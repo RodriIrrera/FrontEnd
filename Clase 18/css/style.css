@@ -110,6 +110,154 @@ h2 {
     color: #F0A83E;
 }
 
+.datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombref {
+    color: #3C2313;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.llenar {
+    background-color:#3C2313;
+    color: white;
+    width: 25rem;
+    height: 40px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dosbotones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.resetear, .enviar {
+    display: flex;
+    width: 10rem;
+    height: 40px;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.resetear {
+    background-color: #8A8787;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.enviar {
+    background-color: #F0A83E;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+.pre-final {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #F0A83E;
+    height: 60px;
+}
+
+.foto-correo {
+    display: flex;
+    position: absolute;
+    left: 1rem;
+}
+
+.novedades {
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    left: 5rem;
+}
+
+.doselementos {
+    display: flex;
+    flex-direction: row;
+}
+
+.campo {
+    display: flex;
+    background-color: white;
+    width: 15rem;
+    height: 30px;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    position: absolute;
+    right: 9rem;
+    top: 1rem;
+}
+
+.campoder {
+    display: flex;
+    background-color: #3C2313;
+    color: white;
+    width: 7rem;
+    height: 30px;
+    border-radius:1.5rem;
+    padding-top: 0.3rem;
+    padding-left: 0.7rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.resetear:hover {
+    background-color: blue;
+    color:orangered;
+}
+
+.enviar:hover {
+    background-color: blue;
+    color: orangered;
+}
+
+.campoder:hover {
+    background-color: blue;
+    color: orangered;
+}
+
+.llenar:focus {
+    background-color:darkblue;
+}
+
+.campo:focus {
+    background-color:darkblue;
+}
+
+.foto-correo:hover {
+    background-color:indigo;
+}
+
+.novedades:hover {
+    color: indigo;
+}
+
+
+
 .contacto {
     display: flex;
     position: relative;
@@ -217,6 +365,48 @@ h2 {
         left: 5rem;
         top: 1rem;
         padding-bottom: 1rem;
+    }
+
+    .llenar {
+        width: 18rem;
+    }
+
+    .pre-final {
+        height: 100px;
+        position: relative;
+    }
+
+    .foto-correo {
+        position: absolute;
+        top: 1rem;
+    }
+
+    .novedades {
+        position: absolute;
+        top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .doselementos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .campo {
+        display: flex;
+        position: absolute;
+        top: 3.5rem;
+        left: 1rem;
+        width: 13rem;
+    }
+
+    .campoder {
+        display: flex;
+        position: absolute;
+        top: 3.5rem;
+        right: 2rem;
     }
 }
 

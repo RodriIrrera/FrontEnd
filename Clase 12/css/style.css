@@ -111,22 +111,53 @@ h2 {
 
 .contacto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: center;
     background-color: #3C2313;
     color: white;
-    height: 400px;
-}
-
-.titulos {
-    display: flex;
-    
+    height: 260px;
 }
 
 .remarcado {
     font-weight: bold;
     font-size: 30px;
+}
+
+.pequeño {
+    font-size: 10px;
+    font-weight: lighter;
+    color: #8A8787;
+}
+
+.columnauno {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos {
+    padding: 10px 0px 10px 40px;
+}
+
+
+.columnados {
+    display: flex;
+    flex-direction: column;
+}
+
+.arriba, .medio, .abajo {
+        padding-top: 40px;
+}
+
+.arriba {
+    margin-top: -40px;
+}
+
+.columnatres {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    margin-left: 400px;
 }
 
 .derechos {
