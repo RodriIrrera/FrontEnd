@@ -4,23 +4,41 @@
     padding: 0;
 }
 
+body {
+    width: 100%;
+}
+
 h3 {
     background-color: #1CD1B0;
     font-size: 1rem;
-    padding-left: 15px;
+    padding-left: 1rem;
     font-weight: lighter;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
 }
 
-h1 {
+.tienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #00669F;
     height: 80px;
     color: white;
     font-size: 3rem;
-} 
+}
 
-nav {
+.maquina {
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.menu {
     background-color: #001D2D;
     color: white;
     display: flex;
@@ -31,43 +49,37 @@ nav {
 
 li {
     list-style: none;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .bloques {
-    margin-top: 100px;
-    margin-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
 }
 
 .cajas {
     background-color: #F3F3F3;
-    width: 300px;
+    width: 19rem;
     height: 520px;
-    border-radius: 14px;
-}
-
-.mas {
-    width: 10px;
-    height: 20px;
-    margin-top: 300px;
+    border-radius: 1rem;
 }
 
 h2 {
-    margin: 20px;
+    margin: 1.3rem;
     text-align: center;
 }
 
 p {
     text-align: left;
-    padding: 20px 20px 0px 20px;
+    padding: 1.3rem 1.3rem 0rem 1.3rem;
 }
 
 .fotocentro {
-    margin-top: -80px;
-    margin-left: 90px;
+    margin-top: -5rem;
+    margin-left: 5.5rem;
 }
 
 footer {
@@ -82,19 +94,19 @@ footer {
 }
 
 .formulario {
+    position: relative;
     background-color: #00669F;
-    border-radius: 2rem;
+    border-radius: 3rem;
     width: 50rem;
-    height: 700px;
-    margin: 4rem;
+    height: 750px;
     color: white;
     padding: 2rem;
+    margin: 4rem 10rem 4rem 10rem;
 }
 
 h4 {
     font-size: 3rem;
     text-align: center;
-    padding-top: 1rem;
 }
 
 .agrega {
@@ -108,6 +120,7 @@ h4 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: -3rem;
 }
 
 .cajauno {
@@ -115,9 +128,10 @@ h4 {
     flex-direction: column;
 }
 
-.caja2 {
+.cajados {
     display: flex;
     flex-direction: column;
+    padding-top: 6rem;
 }
 
 .rad, textarea {
@@ -126,7 +140,17 @@ h4 {
     padding: 1rem;
 }
 
+.mas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 button {
+    position: absolute;
+    bottom: 1rem;
     background-color: #1CD1B0;
     color: #000000;
     border-radius: 1rem;

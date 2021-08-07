@@ -10,33 +10,34 @@
 <body>
     <header>
         <h3>20% de descuento en todos los productos</h3>
-        <h1>
-        <img src="img/OBJECTS.png" alt="foto tienda">
-        Tienda Mágica
-        </h1>
-        <nav>
+        <nav class="tienda">
+        <img class="maquina" src="img/OBJECTS.png" alt="foto tienda">
+        <h1>Tienda Mágica</h1>
+        </nav>
+        <nav class="menu">
             <li>Contacto</li>
             <li>Registrarme</li>
             <li>Ingresar</li>
         </nav>
     </header>
+    <a class="mas" href="index.html"><img src="img/mas.png" alt="ver-mas"></a>
     <section class="formulario">
         <h4>Añadí tu super</h4>
         <p class="agrega">Agregá tu personaje favorito completando las opciones.</p>
         <form class="bloque" action="" method="">
             <div class="cajauno">
             <label for="nombre">*Nombre</label><br>
-            <input class="rad" type="text" name="nombre" id="nombre"><br>
+            <input class="rad" type="text" name="nombre" id="nombre" placeholder="Nombre"><br>
             <label for="fecha">Fecha</label><br>
             <input class="rad" type="date" name="fecha" id="fecha"><br>
             <textarea name="descripcion" id="" cols="30" rows="10" 
             placeholder="Descripción"></textarea>
             </div>
-            <div class="caja2">
-            <br><label class="especie" for="especie">*Especie</label><br>
+            <div class="cajados">
+            <label for="especie">*Especie</label><br>
             <input class="rad" type="text" name="especie" id="especie" placeholder="Especie"><br>
             <label for="foto">Agregar Foto</label><br>
-            <input type="file" name="foto" id="foto"><br>
+            <input type="file" name="foto" id="foto"><br><hr><br>
             <label for="">Poderes</label><br>
             <label for="">
             <input type="checkbox" name="poderes" value="volar" id="">

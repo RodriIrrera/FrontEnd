@@ -5,19 +5,48 @@
 }
 
 h3 {
-    background-color: #D1891C;
+    background-color: #1CD1B0;
     font-size: 1rem;
+    padding-left: 1rem;
     font-weight: lighter;
-    padding: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.tienda {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00669F;
+    height: 80px;
+    color: white;
+    font-size: 3rem;
+}
+
+.maquina {
+    display: flex;
 }
 
 h1 {
-    background-color: #00669F;
-    height: 60px;
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: #001D2D;
     color: white;
-    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    list-style: none;
     padding: 1rem;
-}   
+}
 
 .bloques {
     margin-top: 10%;
@@ -55,7 +84,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #00669F;
-    height: 50px;
+    margin-bottom: 0px;
 }
 
 .front {
@@ -63,7 +92,7 @@ footer {
     font-weight: lighter;
     color: white;
     padding-left: 37%;
-    padding-bottom: 1rem;;
+    padding-bottom: 2rem;;
 }
 
 .github {
@@ -72,7 +101,9 @@ footer {
     padding: 1rem;
 }
 
-@media (max-width: 1200px) {
+/** media ipad **/
+
+@media (max-width: 800px) {
 
     .bloques {
         display: flex;
@@ -81,12 +112,23 @@ footer {
     }
     .cajas {
         margin: 2rem;
-        width: 40%;
-        height: 500px;
+        width: 39%;
+        height: 520px;
+    }
+
+    .front {
+        padding-left: 30%;
+        padding-bottom: 2rem;
     }
 }
 
+/** iphone 6,7,8 **/
+
 @media (max-width: 400px) {
+
+    h1 {
+        font-size: 2rem;
+    }
 
     .bloques {
         display: flex;
@@ -96,11 +138,7 @@ footer {
     .cajas {
         margin: 1rem;
         width: 80%;
-        height: 500px;
-    }
-
-    footer {
-        height: 40px;
+        height: 520px;
     }
 
     .front {
